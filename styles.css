@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+main{
+    display: flex;
+    height: 100vh;
+    background-image: linear-gradient(0deg, rgb(0, 124, 219), rgb(161, 156, 255));
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+.calculadora{
+    min-width: 500px;
+    padding: 28px;
+    background-color: rgba(0,0,0,0.9);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+#titulo-calculadora{
+    color: white;
+}
+#texto-resultado{
+    margin: 20px 0;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    font-size: 24px;
+    text-align: right;
+    padding: 15px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+.tabela-calculadora{
+    width: 100%;
+    height: 100%;
+}
+button{
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+    font-size: 22px;
+    border-radius: 5px;
+    font-weight: 700;
+}
+button:hover{
+    opacity: 0.8;
+}
+button:active{
+    opacity: 0.65;
+}
+.botoes-numeros{
+    background-color: rgb(53, 53, 53);
+    color: white;
+}
+.botoes-operacoes{
+    background-color: cadetblue;
+    color: white;
+}
+.botoes-deletar{
+    background-color: rgb(126, 37, 37);
+    color: white;
+}
